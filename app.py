@@ -1,7 +1,6 @@
 import chainlit as cl
 
-import os
-huggingfacehub_api_token = os.environ['HUGGINGFACEHUB_API_TOKEN']
+huggingfacehub_api_token = "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"
 
 from langchain import HuggingFaceHub, PromptTemplate, LLMChain
 
